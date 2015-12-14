@@ -30,7 +30,5 @@ angular.module('opsmonitor',[])
                 $scope.port4 = res.services[5].port;
                 $scope.port5 = res.services[7].port;
 
-
-
             });
     });
