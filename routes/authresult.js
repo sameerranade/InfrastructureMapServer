@@ -10,7 +10,7 @@ var request = require('request');
 /* GET users listing. */
 router.get('/', function(req, res, next) {
     var options = {
-        uri: 'http://192.168.0.82:5000/v3/auth/tokens',
+        uri: 'http://192.168.56.101:5000/v3/auth/tokens',
         headers : {
             'Content-Type' : 'application/json'
         },
@@ -23,14 +23,14 @@ router.get('/', function(req, res, next) {
                     ],
                     "password": {
                         "user": {
-                            "id": "040d7060a671448481ccb4d9e8612961",
+                            "id": "54003d701f3447149284a0a91d29120e",
                             "password": "openstack"
                         }
                     }
                 },
                 "scope": {
                     "project": {
-                        "id": "df92585287d44d50bf484b56b79d6264"
+                        "id": "87e5c0c950744ac9993f8d862ab10178"
                     }
                 }
             }
